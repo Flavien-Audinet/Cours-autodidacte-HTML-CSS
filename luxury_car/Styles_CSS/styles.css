@@ -1,0 +1,125 @@
+/*contenu du site*/
+
+body{
+	background-color: black;
+}
+
+
+/*header*/
+
+header{
+	padding-right: 500px;
+	position: fixed;
+	top: 0px;
+	background-color: gray;
+}
+
+header ul{
+	margin-left: 400px;
+}
+
+li.titre_header{ 
+	color: white;
+	vertical-align: middle;
+	text-decoration: none;
+	display: inline-block;
+}
+
+header h1.titre{
+	color: white;
+}
+
+
+/*menu*/
+
+div#menu{
+	position: fixed;
+	left: 0px;
+	background: gray;
+	padding-bottom: 1000px;
+	padding-top: -40px;	
+}
+
+div#menu ul li.btn{
+	list-style-type: none;
+}
+
+div#menu ul li.btn a{
+	pad
+	color: white;
+	background: black;
+	text-decoration: none;
+	padding: 9px;
+}
+
+div#menu ul li.btn:hover a{
+	color: white;
+	background-color: gray;
+	transition: 0.5s all;
+}
+
+
+/*corps*/
+
+div#corps{
+	color: white;
+	padding-left: 200px;
+	padding-top: 90px;
+}
+
+
+/*article*/
+
+article{
+	color: white;
+	margin-left: 200px;
+	color: gray
+	border:;
+	border-width: 20px;
+	border-style: dashed;
+	border-color: yellow;
+}
+
+div#content div{
+	padding-left: 20px;
+	vertical-align: right;
+	display: inline-block;
+	width: 40%
+}
+
+div#content div h1, p,{
+	margin: 20px;
+}
+
+div#content div img, iframe{
+	padding: 5px;
+}
+
+div#content div.left_box{
+	background-color: black;
+	vertical-align: top;
+}
+
+div#content div.right_box{
+	background-color: black;
+	vertical-align: top;
+}
+
+
+/*contact*/
+
+div#contact{
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+
+
+/*footer*/
+
+footer{
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	background-color: gray;
+	padding-right: 1150px;
+}
